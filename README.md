@@ -7,7 +7,7 @@ Prereqs:
 Install pip version of Ansible (not apt version)
 
 To run playbook
-sudo ansible-playbook cluster.yml -i inventory/mycluster/hosts.ini --private-key=k8s.pem --flush-cache --user=adam
+'sudo ansible-playbook cluster.yml -i inventory/mycluster/hosts.ini --private-key=k8s.pem --flush-cache --user=adam'
 
 
 

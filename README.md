@@ -1,3 +1,19 @@
+This is an attempt to use kubespray to create a k8 master and node on the same machine.  Work in progress..
+
+Loosly followed this guide
+https://medium.com/@iamalokpatra/deploy-a-kubernetes-cluster-using-kubespray-9b1287c740ab
+
+Prereqs:  
+Install pip version of Ansible (not apt version)
+
+To run playbook
+sudo ansible-playbook cluster.yml -i inventory/mycluster/hosts.ini --private-key=k8s.pem --flush-cache --user=adam
+
+
+
+
+
+
 ![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-incubator/kubespray/master/docs/img/kubernetes-logo.png)
 
 Deploy a Production Ready Kubernetes Cluster

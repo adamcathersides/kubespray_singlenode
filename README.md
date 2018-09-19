@@ -7,6 +7,7 @@ Prereqs:
 Install pip version of Ansible (not apt version)
 
 Changes so far:
+
 Removed ip address check in roles/kubernetes/preinstall/tasks/0020-verify-settings.yml as this was failing because IP has been set to 127.0.0.1
 
 Added privelige escalation to ansible.cfg file.

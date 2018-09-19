@@ -13,6 +13,10 @@ Changes so far:
 
     Added privilege escalation to ansible.cfg file.
 
+Issues so far:
+
+    Dashboard is not running - possibly due to Calico container not running (an IP address check is failing)
+
 To run playbook
 `sudo ansible-playbook cluster.yml -i inventory/mycluster/hosts.ini --private-key=k8s.pem --flush-cache --user=adam`
 

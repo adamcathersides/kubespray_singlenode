@@ -4,13 +4,14 @@ Loosly followed this general deployment guide
 https://medium.com/@iamalokpatra/deploy-a-kubernetes-cluster-using-kubespray-9b1287c740ab
 
 Prereqs:  
+    
     Install pip version of Ansible (not apt version)
 
 Changes so far:
 
     Removed ip address check in roles/kubernetes/preinstall/tasks/0020-verify-settings.yml as this was failing because IP   has been set to 127.0.0.1
 
-    Added privelige escalation to ansible.cfg file.
+    Added privilege escalation to ansible.cfg file.
 
 To run playbook
 `sudo ansible-playbook cluster.yml -i inventory/mycluster/hosts.ini --private-key=k8s.pem --flush-cache --user=adam`

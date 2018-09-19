@@ -19,7 +19,7 @@ To run playbook
 
 
 
-
+----------------------------------------------------------------------------------------------------------------------
 
 ![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-incubator/kubespray/master/docs/img/kubernetes-logo.png)
 
